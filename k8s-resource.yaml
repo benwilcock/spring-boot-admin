@@ -4,6 +4,6 @@ metadata:
   name: spring-boot-admin
 spec:
   git:
-    url: https://github.com/benwilcock/spring-boot-admin.git
+    url: https://github.com/benwilcock/spring-boot-admin
     ref:
       branch: main

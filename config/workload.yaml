@@ -8,6 +8,6 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/benwilcock/spring-boot-admin.git
+      url: https://github.com/benwilcock/spring-boot-admin
       ref:
         branch: main
