@@ -7,3 +7,8 @@ tanzu apps workload create spring-boot-admin \
 --label tanzu.app.live.view.application.name=spring-boot-admin \
 --yes \
 --namespace default
+
+kubectl apply -f k8s-resource.yaml --namespace accelerator-system
+
+tanzu accelerator update spring-boot-admin --reconcile
+

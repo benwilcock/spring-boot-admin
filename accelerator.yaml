@@ -1,6 +1,6 @@
 accelerator:
   displayName: spring-boot-admin
-  description: 'Nice UI for examining Microservice Architectures. Requires Spring applications to register using a client. More here:  https://github.com/codecentric/spring-boot-admin'
+  description: 'Nice UI for examining Microservice Architectures. Spring & Python applications can register using a client. More information on Spring Boot Admin can be found here:  https://github.com/codecentric/spring-boot-admin'
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
   tags: []
   options:
