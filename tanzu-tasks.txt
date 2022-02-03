@@ -1,0 +1,9 @@
+tanzu apps workload create spring-boot-admin \
+--git-repo https://github.com/benwilcock/spring-boot-admin \
+--git-branch main \
+--type web \
+--label app.kubernetes.io/part-of=spring-boot-admin \
+--label tanzu.app.live.view=true \
+--label tanzu.app.live.view.application.name=spring-boot-admin \
+--yes \
+--namespace default
