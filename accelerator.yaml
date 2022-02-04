@@ -1,13 +1,20 @@
 accelerator:
-  displayName: spring-boot-admin
-  description: 'Nice UI for examining Microservice Architectures. Spring & Python applications can register using a client. More information on Spring Boot Admin can be found here:  https://github.com/codecentric/spring-boot-admin'
+  displayName: Spring Boot Admin (Server)
+  description: "Spring Boot Admin offers a pleasant GUI dashboard that's used to examine and introspect Microservice Architectures. Spring & Python applications can register with the dashboard using a client library. More information about Spring Boot Admin can be found here:  https://github.com/codecentric/spring-boot-admin"
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
-  tags: []
+  tags: 
+    - Java
+    - Python
+    - Spring Boot
+    - Spring
+    - Microservices
+
   options:
   - name: optionName
     label: Nice Label
     display: true
     defaultValue: ""
+    
 engine:
-  include:
-  - '**'
+  include: [ "**/*" ]
+  exclude: [ "config/*.yaml", "Tiltfile", "README.md", "catalog/*.yaml", "k8s-resource.yaml" ]
