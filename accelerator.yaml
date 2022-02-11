@@ -1,7 +1,7 @@
 accelerator:
   displayName: Spring Boot Admin (Server)
   description: "Spring Boot Admin offers a pleasant GUI dashboard that's used to examine and introspect Microservice Architectures. Spring & Python applications can register with the dashboard using a client library. More information about Spring Boot Admin can be found here: <a href='https://github.com/codecentric/spring-boot-admin'>https://github.com/codecentric/spring-boot-admin</a>"
-  iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
+  iconUrl: https://github.com/benwilcock/spring-boot-admin/blob/main/images/logo-spring-boot-admin.png
   tags: 
     - Java
     - Python
