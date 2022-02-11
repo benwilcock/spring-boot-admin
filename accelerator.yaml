@@ -8,6 +8,8 @@ accelerator:
     - Spring Boot
     - Spring
     - Microservices
+    - Admin
+    - Observability
 
   options:
   - name: optionName
