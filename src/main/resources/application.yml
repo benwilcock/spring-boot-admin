@@ -1,6 +1,10 @@
 spring:
   application:
     name: spring-boot-admin
+  boot:
+    admin:
+      ui:
+        public-url: http://spring-boot-admin.default.apps.example.com
   cloud:
     kubernetes:
       discovery:
