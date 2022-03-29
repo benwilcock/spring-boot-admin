@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-boot-admin
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+        service-labels: 
+          tanzu.app.live.view.application.flavours: spring-boot
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
