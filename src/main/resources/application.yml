@@ -5,12 +5,6 @@ spring:
     admin:
       ui:
         public-url: http://spring-boot-admin.default.apps.example.com
-  cloud:
-    kubernetes:
-      discovery:
-        all-namespaces: true
-        service-labels: 
-          tanzu.app.live.view.application.flavours: spring-boot
 
 management:
   endpoints:
