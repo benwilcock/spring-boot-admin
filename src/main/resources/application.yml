@@ -4,7 +4,7 @@ spring:
   boot:
     admin:
       ui:
-        public-url: http://spring-boot-admin.default.apps.example.com
+        public-url: http://spring-boot-admin.${NAMESPACE}.${DOMAIN}
 
 management:
   endpoints:

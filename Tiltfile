@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='harbor.ryanbaker.io/bens-tap/spring-boot-admin-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='index.docker.io/wilcockb200/spring-boot-admin-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 
