@@ -1,10 +1,6 @@
 spring:
   application:
     name: spring-boot-admin
-  boot:
-    admin:
-      ui:
-        public-url: http://${spring.application.name}.${NAMESPACE}.${DOMAIN}:${PORT}
 
 management:
   endpoints:

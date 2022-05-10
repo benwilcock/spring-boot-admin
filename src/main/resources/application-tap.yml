@@ -1,0 +1,5 @@
+spring:
+  boot:
+    admin:
+      ui:
+        public-url: http://${spring.application.name}.${NAMESPACE}.${DOMAIN}:${INGRESS_PORT}
