@@ -3,10 +3,16 @@ spring:
     name: spring-boot-admin
   boot:
     admin:
+      notify:
+        slack:
+          enabled: true
+          webhook-url: https://hooks.slack.com/services/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
+          message: "*#{instance.registration.name}* (instance #{instance.id}) is *#{event.statusInfo.status}*"
       client:
         url: http://localhost:8080 # Find the server at this address
         instance:
           service-base-url: http://localhost:8080 # Register my links to this address
+          
 management:
   endpoints:
     web:
@@ -16,3 +22,4 @@ management:
 logging:
   file:
     name: "/tmp/spring-boot-admin.log"
+
