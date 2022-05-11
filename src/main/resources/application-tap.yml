@@ -3,3 +3,7 @@ spring:
     admin:
       ui:
         public-url: http://${spring.application.name}.${NAMESPACE}.${DOMAIN}:${INGRESS_PORT}
+      client:
+        url: http://localhost:8080 # Register self here
+        instance:
+          service-base-url: http://${spring.application.name}.${NAMESPACE}.${DOMAIN}:${INGRESS_PORT}

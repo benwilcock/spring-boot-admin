@@ -1,9 +1,18 @@
 spring:
   application:
     name: spring-boot-admin
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080 # Find the server at this address
+        instance:
+          service-base-url: http://localhost:8080 # Register my links to this address
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+
+logging:
+  file:
+    name: "/tmp/spring-boot-admin.log"
