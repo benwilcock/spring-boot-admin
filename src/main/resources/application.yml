@@ -6,7 +6,7 @@ spring:
       notify:
         slack:
           enabled: true
-          webhook-url: https://hooks.slack.com/services/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
+          webhook-url: ${SBA_SLACK_WEBHOOK}
           message: "*#{instance.registration.name}* (instance #{instance.id}) is *#{event.statusInfo.status}*"
       client:
         url: http://localhost:8080 # Find the server at this address
